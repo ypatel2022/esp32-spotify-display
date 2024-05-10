@@ -26,10 +26,9 @@ def rgb_to_16_bit_color(rgb):
 def get_bitmap_from_url(image_url):
 
     # download image
-    image_url = 'https://i.scdn.co/image/ab67616d00001e02715973050587fe3c93033aad'
     img_data = requests.get(image_url).content
     with open('./image.png', 'wb') as handler:
-        handler.write(img_data)
+       handler.write(img_data)
 
     # open
     image = Image.open('./image.png')

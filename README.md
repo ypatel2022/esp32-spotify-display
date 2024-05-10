@@ -3,6 +3,9 @@
 
 This project utilizes an ESP32 module and a small OLED display to showcase the album art of the currently playing song on Spotify.
 
+<img src="readme-images/demo.png"/>
+
+
 ## Overview
 
 The ESP32 module connects to a Python Flask server which will process the Spotify API data and send it back with a specific format. It will then take the given data and display it on the OLED display in real-time. 
@@ -78,4 +81,4 @@ The ESP32 module connects to a Python Flask server which will process the Spotif
 1. Run the verify command to make sure everything is running properly
 1. Finally run the upload command
 
-### NOTE: I will upload the wiring diagram as soon
+### NOTE: I will upload the wiring diagram as soon as possible
